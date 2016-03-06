@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab01_bar_step04"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/tab01_step04_title01"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" >
+
+            <FrameLayout
+                android:id="@+id/FrameLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab01_timer_hr" >
+
+                <TextView
+                    android:id="@+id/f6_time_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="H"
+                    android:textColor="#ff99ff"
+                    android:textSize="66sp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab01_timer_dot"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab01_timer_min" >
+
+                <TextView
+                    android:id="@+id/f6_time_min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="H"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff99ff"
+                    android:textSize="66sp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab01_timer_dot"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab01_timer_sec" >
+
+                <TextView
+                    android:id="@+id/f6_time_sec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="H"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff99ff"
+                    android:textSize="66sp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/btnFix1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성공(test)" />
+
+        <Button
+            android:id="@+id/btnFix2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="실패(test)" />
+    </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/tab01_info"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</LinearLayout>

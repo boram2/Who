@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:orientation="vertical" >
+
+        <com.who.onecupafterwork.view.ImageViewRounded
+            android:id="@+id/AnoprofileImageView"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/join_picture" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" >
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="37dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/profile02_bloodtype_6" >
+
+                    <TextView
+                        android:id="@+id/AnoprofilebloodType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="55dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/profile02_religion_6" >
+
+                    <TextView
+                        android:id="@+id/AnoprofileReligion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="45dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" >
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="37dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/profile02_area_6" >
+
+                    <TextView
+                        android:id="@+id/profileArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="45dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/profile02_hobby_6" >
+
+                    <TextView
+                        android:id="@+id/AnoprofileHobby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="45dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" >
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="37dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/profile02_study_6" >
+
+                    <TextView
+                        android:id="@+id/AnoprofileStudy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="70dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="75dp"
+                    android:layout_height="37dp"
+                    android:background="@drawable/profile02_heart_6"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/anoProfileLikeView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="45dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/profile02_appeal_6" >
+
+                <TextView
+                    android:id="@+id/anoProfileIntro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="45dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/profile5_facebook" >
+
+                <TextView
+                    android:id="@+id/anoProfileFacebookView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="75dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

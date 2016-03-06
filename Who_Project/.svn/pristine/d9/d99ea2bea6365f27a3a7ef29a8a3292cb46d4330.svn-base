@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg_0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="89dp"
+            android:src="@drawable/splash_logo" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:background="@drawable/splash_id_0" >
+
+        <EditText
+            android:id="@+id/idView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:ems="10"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textSize="14sp" />
+
+        <requestFocus />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/splash_pw_0" >
+
+        <EditText
+            android:id="@+id/passwordView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginLeft="39dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:ems="10"
+            android:imeOptions="actionSend"
+            android:inputType="textPassword"
+            android:textSize="14sp" >
+        </EditText>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/join_btn_login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="64dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/join_btn_join" />
+
+        <!--
+        <Button
+            android:id="@+id/idLostView"
+            android:layout_width="82dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/join_btn_idsearch"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/pwLostView"
+            android:layout_width="94dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="67dp"
+            android:background="@drawable/join_btn_pwsearch"
+            android:textSize="11sp"
+            />
+            -->
+
+    </LinearLayout>
+
+</LinearLayout>

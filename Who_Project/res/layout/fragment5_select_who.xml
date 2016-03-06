@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab01_bar_step03"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/tab01_step03_title01"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <com.who.onecupafterwork.view.ImageViewRounded
+                android:id="@+id/imageViewWho1"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/join_picture" />
+
+            <com.who.onecupafterwork.view.ImageViewRounded
+                android:id="@+id/imageViewWho2"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginRight="21dp"
+                android:layout_gravity="center"
+                android:src="@drawable/join_picture" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:button="@drawable/checkbox_sel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <com.who.onecupafterwork.view.ImageViewRounded
+                android:id="@+id/imageViewWho3"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/join_picture" />
+
+            <com.who.onecupafterwork.view.ImageViewRounded
+                android:id="@+id/imageViewWho4"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginRight="21dp"
+                android:layout_gravity="center"
+                android:src="@drawable/join_picture" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:button="@drawable/checkbox_sel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <com.who.onecupafterwork.view.ImageViewRounded
+                android:id="@+id/imageViewWho5"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/join_picture" />
+
+            <com.who.onecupafterwork.view.ImageViewRounded
+                android:id="@+id/imageViewWho6"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginRight="21dp"
+                android:layout_gravity="center"
+                android:src="@drawable/join_picture" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:button="@drawable/checkbox_sel" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddWho"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/tab01_btn03_sel" />
+
+</LinearLayout>

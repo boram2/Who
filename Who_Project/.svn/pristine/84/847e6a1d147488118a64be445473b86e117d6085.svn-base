@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="퇴근인이 되셨습니다.\n 인증하신 메일주소로 발송되었습니다." />
+
+        <TextView
+            android:id="@+id/mailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btnGoProfile"
+            android:layout_width="170dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/join2_btn_04" />
+    </LinearLayout>
+
+</FrameLayout>

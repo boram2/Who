@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="차단할 번호를 입력하세요"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="15dp"
+        android:text="등록하신 번호는 매칭 추천 리스트에 포함되지 않습니다."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp" >
+
+        <Spinner
+            android:id="@+id/banPhoneNum1View"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="6.66dp"
+            android:background="@drawable/join_phone_01_1"
+            android:textColor="#69666E"
+            android:textSize="14dp" />
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/join_phone_01_2" >
+
+            <EditText
+                android:id="@+id/banPhoneNum2View"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:maxLength="4"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/join_phone_01_2" >
+
+            <EditText
+                android:id="@+id/banPhoneNum3View"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:maxLength="4"
+                android:textSize="14sp" >
+
+                <requestFocus />
+            </EditText>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnAddBanPN"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_call_cut" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/titleDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#DEDEE8"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ListView
+            android:id="@+id/banListView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:listSelector="@drawable/listview_sel">
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewFix1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab01_bar_step04"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="37dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.who.onecupafterwork.view.ImageViewRounded
+            android:id="@+id/imageViewOther1"
+            android:layout_width="147dp"
+            android:layout_height="147dp"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/join_picture" />
+
+        <com.who.onecupafterwork.view.ImageViewRounded
+            android:id="@+id/imageViewOther2"
+            android:layout_width="147dp"
+            android:layout_height="147dp"
+            android:src="@drawable/join_picture" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkBoxOther1"
+            android:layout_width="83dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="66dp"
+            android:button="@drawable/like_sel" />
+
+        <CheckBox
+            android:id="@+id/checkBoxOther2"
+            android:layout_width="83dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="41dp"
+            android:button="@drawable/like_sel" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/tab01_btn_confirm" />
+
+</LinearLayout>

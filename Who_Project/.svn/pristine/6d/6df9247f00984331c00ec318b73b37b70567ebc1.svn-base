@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab01_bar_step01"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewFix2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/tab01_title02" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.who.onecupafterwork.view.ImageViewRounded
+            android:id="@+id/imageViewMe"
+            android:layout_width="147dp"
+            android:layout_height="147dp"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/join_picture" />
+
+        <com.who.onecupafterwork.view.ImageViewRounded
+            android:id="@+id/imageViewSame"
+            android:layout_width="147dp"
+            android:layout_height="147dp"
+            android:src="@drawable/join_picture" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewFix3"
+        android:layout_width="320dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/tab01_step01_info" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/tab01_btncancle_sel" />
+
+    <!-- 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/btnFix1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="넘어가기(test)" />
+
+        <Button
+            android:id="@+id/btnFix2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="초대 받기(test)" />
+    </LinearLayout>
+     -->
+
+</LinearLayout>

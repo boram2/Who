@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="이성 매칭 신청"
+            android:textColor="#8C76E7"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/titleDivider"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#8C76E7"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textViewOther1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewFix1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="님, " />
+
+            <TextView
+                android:id="@+id/textViewOther2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewFix2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="님과" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textViewOhter3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewFix3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="님, " />
+
+            <TextView
+                android:id="@+id/textViewOther4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewFix4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="님과" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textViewOhter5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewFix5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="님, " />
+
+            <TextView
+                android:id="@+id/textViewOther6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewFix6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="님께" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewFix7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="매칭을 신청합니다." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="83dp"
+                android:layout_height="37dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/tab01_btn_cancel02" />
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:background="@drawable/tab01_btn_confirm" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

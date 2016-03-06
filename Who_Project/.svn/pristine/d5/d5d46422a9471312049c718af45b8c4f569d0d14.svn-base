@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SignInActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/SignupActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/SignupActionBar</item>
+    </style>
+
+    <style name="SignupActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/join_navigation_1</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/join_navigation_1</item>
+    </style>
+
+    <style name="ProfileActionbarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ProfileActionBar</item>
+    </style>
+
+    <style name="ProfileActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/profile5_navigation</item>
+    </style>
+
+    <style name="SelectCompanyTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/SelectCompanyActionBar</item>
+    </style>
+
+    <style name="SelectCompanyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/company2_navigation</item>
+    </style>
+
+    <style name="CompanyMailTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/CompanyMailActionBar</item>
+    </style>
+
+    <style name="CompanyMailActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/mail3_navigation</item>
+    </style>
+
+    <style name="MainTabActivityTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MainTabActivityActionBar</item>
+    </style>
+
+    <style name="MainTabActivityActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/navi_top_logo</item>
+    </style>
+
+    <style name="MainTab1Theme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MainTab1ActionBar</item>
+    </style>
+
+    <style name="MainTab1ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/navi_top_logo</item>
+    </style>
+
+    <style name="NoticeTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/NoticeActionBar</item>
+    </style>
+
+    <style name="NoticeActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/navitop_tab03_ti01</item>
+    </style>
+
+    <style name="SettingTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/SettingActionBar</item>
+    </style>
+
+    <style name="SettingActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/navitop_tab03_ti02</item>
+    </style>
+
+    <style name="MeetingHistoryTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MeetingHistoryActionBar</item>
+    </style>
+
+    <style name="MeetingHistoryActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/navitop_tab03_ti03</item>
+    </style>
+
+    <style name="BanListTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/BanListActionBar</item>
+    </style>
+
+    <style name="BanListActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/navitop_tab03_ti04</item>
+    </style>
+
+    <style name="StipulationTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/SpitulationActionBar</item>
+    </style>
+
+    <style name="SpitulationActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/navitop_tab03_ti05</item>
+    </style>
+
+    <style name="dialog_light" parent="@android:style/Theme.Dialog">
+        <item name="@android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

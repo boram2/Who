@@ -1,0 +1,56 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <style name="SignInActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/SignupActionBar</item>
+    </style>
+
+    <style name="ProfileActionbarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ProfileActionBar</item>
+    </style>
+
+    <style name="SelectCompanyTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/SelectCompanyActionBar</item>
+    </style>
+
+    <style name="CompanyMailTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/CompanyMailActionBar</item>
+    </style>
+
+    <style name="MainTabActivityTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MainTabActivityActionBar</item>
+    </style>
+
+    <style name="MainTab1Theme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MainTab1ActionBar</item>
+    </style>
+
+    <style name="NoticeTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/NoticeActionBar</item>
+    </style>
+
+    <style name="SettingTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/SettingActionBar</item>
+    </style>
+
+    <style name="MeetingHistoryTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MeetingHistoryActionBar</item>
+    </style>
+
+    <style name="BanListTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/BanListActionBar</item>
+    </style>
+
+    <style name="StipulationTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/SpitulationActionBar</item>
+    </style>
+
+</resources>

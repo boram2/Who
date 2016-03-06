@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="SiItems">
+        <item>서울</item>
+        <item>수원</item>
+        <item>인천</item>
+        <item>대전</item>
+        <item>광주</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+    </string-array>
+    <string-array name="SeoItems">
+        <item>종로구</item>
+        <item>마포구</item>
+        <item>영등포구</item>
+        <item>동작구</item>
+        <item>관악구</item>
+        <item>강남구</item>
+    </string-array>
+    <string-array name="SooItems">
+        <item>팔달구</item>
+    </string-array>
+    <string-array name="InItems">
+        <item>부평구</item>
+        <item>남동구</item>
+    </string-array>
+    <string-array name="DaeItems">
+        <item>중구</item>
+        <item>서구</item>
+    </string-array>
+    <string-array name="KwangItems">
+        <item>서구</item>
+        <item>동구</item>
+    </string-array>
+    <string-array name="DaeguItems">
+        <item>중구</item>
+    </string-array>
+    <string-array name="UlItems">
+        <item>남구</item>
+        <item>중구</item>
+    </string-array>
+    <string-array name="BuItems">
+        <item>중구</item>
+        <item>부산진구</item>
+        <item>해운대구</item>
+    </string-array>
+    
+    <string-array name="SeoCode">
+        <item>B001001</item>
+        <item>B001002</item>
+        <item>B001003</item>
+        <item>B001004</item>
+        <item>B001005</item>
+        <item>B001006</item>
+    </string-array>
+    
+    <string-array name="SooCode">
+        <item>B002001</item>
+    </string-array>
+    
+    <string-array name="InCode">
+        <item>B003001</item>
+        <item>B003002</item>
+    </string-array>
+    
+    <string-array name="DaeCode">
+        <item>B004001</item>
+        <item>B004002</item>
+    </string-array>
+    
+    <string-array name="KwangCode">
+        <item>B005001</item>
+        <item>B005002</item>
+    </string-array>
+    
+    <string-array name="DaeguCode">
+        <item>B006001</item>
+    </string-array>
+    
+    <string-array name="UlCode">
+        <item>B007001</item>
+        <item>B007002</item>
+    </string-array>
+    
+    <string-array name="BuCode">
+        <item>B008001</item>
+        <item>B008002</item>
+        <item>B008003</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab01_bar_step01"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/tab01_title04" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp" >
+
+        <TextView
+            android:id="@+id/textViewSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="***"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="님으로부터"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="친구 요청이 도착했습니다."
+        android:textSize="15sp" />
+
+    <com.who.onecupafterwork.view.ImageViewRounded
+        android:id="@+id/imageViewSender"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/join_picture" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="129dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="83dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/tab01_btn_ok_sel" />
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="83dp"
+            android:layout_height="32dp"
+            android:background="@drawable/tab01_btn_no_sel" />
+    </LinearLayout>
+
+</LinearLayout>

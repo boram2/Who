@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.who.onecupafterwork.signin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.who.onecupafterwork.signin.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.who.onecupafterwork.signin.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="com.who.onecupafterwork.network.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_icon_144"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.who.onecupafterwork.signin.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.common.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="SelectCompanyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SelectCompanyTheme" >
+        </activity>
+        <activity
+            android:name="SignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SignInActionBarTheme" >
+        </activity>
+        <activity
+            android:name="AddCompanyEmailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CompanyMailTheme" >
+        </activity>
+        <activity
+            android:name="MailConfirmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CompanyMailTheme" >
+        </activity>
+        <activity
+            android:name="ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProfileActionbarTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.common.MainTabActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainTabActivityTheme" android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name="PersonProfileActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.show.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.show.ChangePasswordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.history.HistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MeetingHistoryTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.show.NoticeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoticeTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.show.BanListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BanListTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.common.InviteActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="InputMailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CompanyMailTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.show.ShowMyProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProfileActionbarTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.show.ShowAnotherPersonProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProfileActionbarTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.show.StipulationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StipulationTheme" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.show.NoticeContentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.who.onecupafterwork.common.EvaluateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainTabActivityTheme" >
+        </activity>
+
+        <receiver
+            android:name="GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.who.onecupafterwork.signin" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="GcmIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

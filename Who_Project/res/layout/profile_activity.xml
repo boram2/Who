@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="95dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile5_bloodtype" />
+
+            <RadioGroup
+                android:id="@+id/bloodGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="21dp"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:checked="true"
+                    android:text=" A" />
+
+                <RadioButton
+                    android:id="@+id/radioB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:text=" B" />
+
+                <RadioButton
+                    android:id="@+id/radioO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:text=" O" />
+
+                <RadioButton
+                    android:id="@+id/radioAB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:text=" AB" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginBottom="8dp" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile5_religion" />
+
+            <RadioGroup
+                android:id="@+id/religionGroup"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/religionNone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:checked="true"
+                    android:text=" 무교"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/religionProtestant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:text=" 기독교"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/religionBuddism"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:text=" 불교"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/religionCatholic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:text=" 천주교"
+                    android:textSize="12sp" />
+
+                <!--
+                <RadioButton
+                    android:id="@+id/religionEtc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/radiobtn_sel"
+                    android:text="기타"
+                    android:textSize="12sp" />
+                !-->
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginBottom="8dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/profile5_area" />
+
+            <Spinner
+                android:id="@+id/areaSpinner"
+                android:layout_width="75dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/join_phone_01_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginBottom="8dp" >
+
+            <TextView
+                android:id="@+id/idLostView"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/profile5_study" />
+
+            <Spinner
+                android:id="@+id/studySpinner"
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/spinner100" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginBottom="8dp" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/profile5_hobby" />
+
+            <Spinner
+                android:id="@+id/hobbySpinner"
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/spinner100" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/profile5_appeal" >
+
+            <EditText
+                android:id="@+id/temtationView"
+                android:layout_width="244dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="4dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/profile5_facebook" >
+
+            <EditText
+                android:id="@+id/facebookView"
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="4dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="생략가능"
+                android:imeOptions="actionDone"
+                android:inputType="text" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnProfileRegister"
+        android:layout_width="170dp"
+        android:layout_height="32dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/join2_btn_04" />
+
+</LinearLayout>
